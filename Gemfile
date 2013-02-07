@@ -11,5 +11,10 @@ group :assets do
   gem 'twitter-bootstrap-rails'
 end
 
+group :test, :development do
+  gem 'factory_girl'
+  gem 'factory_girl_rails'
+end
+
 gem 'jquery-rails'
 gem 'sqlite3'
